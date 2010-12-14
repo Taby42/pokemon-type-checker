@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -gt 2 ] 
+then 
+    echo "More than two words have been entered. Ignoring other words."
+fi 
+
+java typescmd $1 $2
